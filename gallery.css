@@ -1,0 +1,73 @@
+User
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: yellow;
+}
+h1 {
+  text-align: center;
+    font-size:100px;
+}
+body {
+  background-color: white;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.photo {
+  background-size: cover;
+  background-position: center;
+}
+
+.photo1 {
+  background-image: url('https://live.staticflickr.com/65535/53708642118_981621e3fa_z.jpg');
+  height: 200px;
+}
+
+.photo2 {
+  background-image: url('https://live.staticflickr.com/65535/53708430626_bed72d5269_z.jpg');
+  height: 300px;
+}
+
+.photo3 {
+  background-image: url('https://live.staticflickr.com/65535/53708865025_f822f57c8a_z.jpg');
+  height: 250px;
+}
+
+.photo4 {
+  background-image: url('https://live.staticflickr.com/65535/53708643553_b14cbe1821_z.jpg');
+  height: 350px;
+}
+
+.photo5 {
+  background-image: url('https://live.staticflickr.com/65535/53708640048_c1a4fc76d4_z.jpg');
+  height: 400px;
+}
+
+.photo6 {
+  background-image: url('https://live.staticflickr.com/65535/53708643243_49f21f3eb0_z.jpg');
+  height: 200px;
+}
+
